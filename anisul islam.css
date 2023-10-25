@@ -1,0 +1,190 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	background-color: #eee;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	max-width: 1000px;
+	background-color: #e4f9f5;
+	margin:0 auto;
+	padding:20px;
+
+}
+
+.header-bio{
+
+	margin-bottom: 10px;
+}
+.header-bio{
+	float:left;
+	padding: 30px;
+
+}
+h1,h2,h3,h4,h5,h6{
+	color:#11999e;
+}
+
+.header-contract{
+	    float:right;
+		padding:30px
+}
+
+.header-contract a{
+	text-decoration: none;
+    color:Teal;
+	font-weight: bold;
+	float:right
+
+
+}
+
+
+.header-contract a:hover{text-dceoration:underline;color:tomato;
+	
+}
+
+.profileimg{
+	width:105px ;
+	height: 115px;
+	border:3px solid rgb(21, 10, 10);
+	border-radius: 50%;
+	float:left;
+
+}
+
+.div-clear{
+	clear:both;
+	
+}
+hr{
+	border:3px solid black;
+	width:100%;
+	margin:20px auto;
+	border-bottom:none;
+
+}
+.sizes{
+	line: height 2px;
+	color:red
+ 
+}
+
+/*--------------------
+Personal section start
+----------------------*/
+
+#personal-section{
+
+
+}
+
+.content{
+	margin-bottom: 30px;
+}
+
+.left-div{
+	width:30%;
+	float: left;
+
+
+}
+
+.right-div{
+	width:70%;
+    float: left;
+
+}
+.common-hr{
+	border: solid black 1px;
+	border-bottom:none;
+	width:100%;
+	margin:20 auto;
+
+ 
+
+
+} /*-------------------
+education section start
+-----------------------*/
+
+.edu-template-left{
+	width:45%;
+	float: left;
+
+}
+
+.edu-template-right{
+	width:45%;
+	float: right;
+	
+
+
+}
+
+.edu-template-right  a{
+     text-decoration: none;
+	 color:rgba(224, 3, 248, 0.808);
+	 font-size: 13px;
+}
+.edu-template-left a{
+	text-decoration: none;
+	color:rgba(224, 3, 248, 0.808);
+	font-size: 13px;
+}
+
+.edu-template-right  a:hover{
+	text-decoration: none;
+	color:rgba(0, 0, 0, 0.808);
+	font-size: 13px;
+}
+.edu-template-left a:hover{
+   text-decoration: none;
+   color:rgba(0, 0, 0, 0.808);
+   font-size: 13px;
+}
+
+
+
+
+
+/*-------------------
+Footer start
+---------------------*/
+.bottom-container{
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.bottom-container a{
+	color:white;
+	margin:20px;
+	text-decoration: none;
+	transition: .3s;
+	
+	
+}
+.bottom-container p{
+	color:white;
+	margin-top:20px;
+	 
+	
+}
+.bottom-container a:hover{
+	color: white;
+	background-color: rgba(11, 224, 107, 0.53);
+	border-radius: 3px;
+	
+	
+	 
+	
+}
+ 
+
+ 
